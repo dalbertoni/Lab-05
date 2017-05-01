@@ -1,0 +1,47 @@
+table {
+  width: 1000px;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding: 4px 10px;
+
+}
+
+span {
+  font-style: italic;
+  font-weight:200;
+
+}
+
+td {
+  padding: 3px 20px;
+  border-left: 1px solid #CECBCB;
+  border-right: 1px solid #CECBCB;
+  padding-left: 40px;
+
+}
+
+
+tr:nth-child(2n) {
+  background-color: #EEEDD1;
+
+}
+
+h1 {
+  font-family:Arial, Helvetica, san-serif;
+  font-size:35px;
+}
+
+h2 {
+  font-family:Arial, Helvetica, san-serif;
+  font-weight:100;
+  font-size:35px;
+  font-weight:lighter;
+  line-height:0px;
+}
+
+tr {
+  vertical-align: bottom;
+}
