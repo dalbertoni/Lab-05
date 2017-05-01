@@ -6,6 +6,7 @@ table {
 th {
   text-align: left;
   padding: 4px 10px;
+  border-left:1px solid #CECBCB;
 
 }
 
@@ -44,4 +45,16 @@ h2 {
 
 tr {
   vertical-align: bottom;
+}
+
+tr:nth-child(2) {
+  border-top:1px solid #CECBCB;
+}
+
+tr:nth-child(8) {
+  border-bottom:1px solid #CECBCB;
+}
+
+.images {
+  border-left:none;
 }
