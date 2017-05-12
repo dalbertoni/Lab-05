@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 table {
   width: 1000px;
   border-collapse: collapse;
@@ -97,4 +98,8 @@ nav {
   height: 30px;
   line-height:30px;
 
+}
+
+form {
+  font-family: 'Source Sans Pro',Helvetica, san-serif;;
 }
