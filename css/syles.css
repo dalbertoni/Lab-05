@@ -75,16 +75,16 @@ a:link {
   dislplay:block;
   padding: 14px 16px;
   text-decoration:none;
-  color: black;
+  color: white;
 
 }
 
 a:visited {
-  color:black;
+  color:white;
 }
 
 a:hover {
-  color:white;
+  color:grey;
 }
 
 a:active {
@@ -93,7 +93,7 @@ a:active {
 
 nav {
   width=100%;
-  background-color:#EEEDD1;
+  background-color:black;
   height: 30px;
   line-height:30px;
 
