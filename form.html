@@ -23,47 +23,38 @@
 
   <form action="submit">
     <div>
-      <label for="first_name">First Name:</label>
+      <p><label for="first_name">First Name:</label>
       <input id="first_name" type="text">
-    </div>
-
-    <div>
       <label for="last_name">Last Name:</label>
-      <input id="last_name" type="text">
+      <input id="last_name" type="text"></p>
     </div>
 
     <div>
       <p>Address:
-      <input type="text" name="address" size="20" maxlength="30">
+      <input type="text" name="address" size="40" maxlength="40">
     </p>
     </div>
 
     <div>
       <p>City:
         <input type="text" name="city" size="20" maxlength="30">
+        State<select name="states">
+          <option value="Alabama">Alabama</option>
+          <option value="Alaska">Alaska</option>
+          <option value="Arizona">Arizona</option>
+          <option value="Arkansas">Arkansas</option>
+          <option value="California">California</option>
+          <option value="Colorado">Colorado</option>
+          <option value="Conneticut">Conneticut</option>
+          <option value="Delaware">Delaware</option>
+          <option value="Florida">Florida</option>
+          <option value="Georgia">Georgia</option>
+          <option value="Hawaii">Hawaii</option>
+          <option value="Idaho">Idaho</option>
+        </select>
+        Zip:
+        <input type="text" name="zip" size="15" maxlength="10">
       </p>
-    </div>
-
-    <div>
-      <p>State<select name="states">
-        <option value="Alabama">Alabama</option>
-        <option value="Alaska">Alaska</option>
-        <option value="Arizona">Arizona</option>
-        <option value="Arkansas">Arkansas</option>
-        <option value="California">California</option>
-        <option value="Colorado">Colorado</option>
-        <option value="Conneticut">Conneticut</option>
-        <option value="Delaware">Delaware</option>
-        <option value="Florida">Florida</option>
-        <option value="Georgia">Georgia</option>
-        <option value="Hawaii">Hawaii</option>
-        <option value="Idaho">Idaho</option>
-      </select></p>
-    </div>
-
-    <div>
-      <p>Zip:
-      <input type="text" name="zip" size="15" maxlength="10">
     </div>
 
     <fieldset>
@@ -71,6 +62,122 @@
       <label>Phone Number:<input type="text" name="phone"></label>
       <label>Email:<input type="text" name="email"></label>
     </fieldset>
+
+    <div>
+      <p>Gender:</p>
+      <p><input type="radio" name="gender" value="male" checked="checked"/>Male
+        <input type="radio" name="gender" value="female"/>Female
+      </p>
+    </div>
+
+    <fieldset>
+      <legend>Please Select Your 5 Favorite Hydroflask Colors:</legend>
+      <p><input type="checkbox" name="color" value="mint"/>Mint
+      <input type="checkbox" name="color" value="lemon"/>Lemon
+      <input type="checkbox" name="color" value="mango"/>Mango
+      <input type="checkbox" name="color" value="pacific"/>Pacific
+      <input type="checkbox" name="color" value="rasberry"/>Rasberry
+    </p>
+    <p>
+      <input type="checkbox" name="color" value="lava"/>Lava
+      <input type="checkbox" name="color" value="graphite"/>Graphite
+      <input type="checkbox" name="color" value="black"/>Black
+      <input type="checkbox" name="color" value="kiwi"/>Kiwi
+      <input type="checkbox" name="color" value="plum"/>Plum
+    </p>
+      <p>
+      <input type="checkbox" name="color" value="forest"/>Forest
+      <input type="checkbox" name="color" value="white"/>White
+      <input type="checkbox" name="color" value="stainless"/>Stainless
+      <input type="checkbox" name="color" value="cobalt"/>Cobalt
+      <input type="checkbox" name="color" value="sage"/>Sage
+    </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Credit Card Information:</legend>
+      <p><input type="radio" name="credit-card" value="American-Express" checked="checked"/>
+      <img class="images" src="images/american_express.png" alt="american-express-symbol" width="65" height="65"/>
+      <input type="radio" name="credit-card" value="Mastercard"/>
+      <img class="images" src="images/mastercard1979.svg" alt="Mastercard-symbol" width="65" height="65"/>
+      <input type="radio" name="credit-card" value="Visa"/>
+      <img class="images" src="images/visa.svg" alt="Visa-symbol" width="65" height="65"/>
+    </p>
+    <p>
+      <label for="card-name">Card Name:</label>
+      <input id="card-name" type="text" size="30" maxlength="30"></p>
+    <p>
+      <label for="card-number">Card Number:</label>
+      <input id="card-number" type="text" size="28" maxlength="28"></p>
+    <p>
+        <label for="security-code">Security Code:</label>
+        <input id="card-number" type="text" size="8" maxlength="5"></p>
+    <p>Expiration Date:
+          <select name="month">
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+          </select>
+          <select name="day">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+          </select>
+          <select name="year">
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            </select>
+
+
+
+    </fieldset>
+
+
+    </div>
   </form>
 </body>
 </html>
